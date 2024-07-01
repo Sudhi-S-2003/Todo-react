@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+}
+.Todo-list{
+    margin: 10px auto 0;
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 3px 5px red,
+    -2px -3px 5px black;
+}
+.Todo-list h1{
+    text-align: center;
+
+}
+.Todo-list .head{
+    display: flex;
+    align-items: center;
+
+}
+.Todo-list .head input{
+    flex: 1;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    padding-left: 20px;
+    }
+    .Todo-list .head button{
+        background-color: blue;
+        color: white;
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .Todo-list .todo{
+        display: flex;
+        background-color: rgb(194, 219, 219);
+        margin-top: 20px;
+
+        
+    }
+    .Todo-list .todo p{
+        flex: 1;
+        padding-left: 20px;
+    }
+    .Todo-list .todo i{
+        color: red;
+        padding-top: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
